@@ -27,13 +27,29 @@ func main() {
 	// 	fmt.Println("Not found the given key :(")
 	// }
 	// arrays_2nd()
-	myslice()
-	fmt.Println("Please enter the index at which you want to insert the value")
-	index := 0
-	fmt.Scan(&index)
-	fmt.Println("Please enter the values which you want to int the array")
-	value := 0
-	fmt.Scan(&value)
-	inserting(index, value)
+	// myslice()
+	// fmt.Println("Please enter the index at which you want to insert the value")
+	// index := 0
+	// fmt.Scan(&index)
+	// fmt.Println("Please enter the values which you want to int the array")
+	// value := 0
+	// fmt.Scan(&value)
+	// inserting(index, value)
+	// fmt.Println("Please enter the index at which you want to get the value")
+	// val := 0
+	// fmt.Scan(&val)
+	// fmt.Println(getting(val))
+	// fmt.Println("Please enter the index at which you want to get the value")
+	// val1 := 0
+	// fmt.Scan(&val1)
+	// fmt.Println("Please enter the value you want to add")
+	// val2 := 0
+	// fmt.Scan(&val2)
+	// (setting(val1, val2))
+	// fmt.Println("Please enter the index at which you want to get the value")
+	// val1 := 0
+	// fmt.Scan(&val1)
+	fmt.Println(max_value())
+	fmt.Println(min_value())
 
 }
