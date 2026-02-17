@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+// import "fmt"
 
 func main() {
 	// arrays()
@@ -49,7 +49,12 @@ func main() {
 	// fmt.Println("Please enter the index at which you want to get the value")
 	// val1 := 0
 	// fmt.Scan(&val1)
-	fmt.Println(max_value())
-	fmt.Println(min_value())
+	// fmt.Println(max_value())
+	// fmt.Println(min_value())
+	// fmt.Println("sum of all the element is: ", sum_of_el())
+	// fmt.Println("average  of all the element is: ", avg())
+	// reverse_1()
+	// reverse_2()
+	reverse_3()
 
 }
