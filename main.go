@@ -55,6 +55,10 @@ func main() {
 	// fmt.Println("average  of all the element is: ", avg())
 	// reverse_1()
 	// reverse_2()
-	reverse_3()
+	// reverse_3()
+	// left_shift()
+	// left_rotation()
+	// right_shift()
+	right_rotation()
 
 }
