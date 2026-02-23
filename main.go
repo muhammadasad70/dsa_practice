@@ -1,6 +1,6 @@
 package main
 
-// import "fmt"
+import "fmt"
 
 func main() {
 	// arrays()
@@ -59,6 +59,10 @@ func main() {
 	// left_shift()
 	// left_rotation()
 	// right_shift()
-	right_rotation()
+	// right_rotation()
+	fmt.Println("Please enter the value you want to insert")
+	Key := 0
+	fmt.Scan(&Key)
+	insertion(Key)
 
 }
