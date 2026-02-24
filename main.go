@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// arrays()
 	// slice()
@@ -60,9 +58,16 @@ func main() {
 	// left_rotation()
 	// right_shift()
 	// right_rotation()
-	fmt.Println("Please enter the value you want to insert")
-	Key := 0
-	fmt.Scan(&Key)
-	insertion(Key)
+	// fmt.Println("Please enter the value you want to insert")
+	// Key := 0
+	// fmt.Scan(&Key)
+	// insertion(Key)
+	// va := sorted()
+	// if va == 0 {
+	// 	fmt.Println("List is not sorted")
+	// } else {
+	// 	fmt.Println("list is sorted")
+	// }
+	neg_pos()
 
 }
