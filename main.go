@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// arrays()
 	// slice()
@@ -62,12 +64,12 @@ func main() {
 	// Key := 0
 	// fmt.Scan(&Key)
 	// insertion(Key)
-	// va := sorted()
-	// if va == 0 {
-	// 	fmt.Println("List is not sorted")
-	// } else {
-	// 	fmt.Println("list is sorted")
-	// }
-	neg_pos()
+	va := sorted()
+	if va == 1 {
+		fmt.Println("List is not sorted")
+	} else {
+		fmt.Println("list is sorted")
+	}
+	// neg_pos()
 
 }
