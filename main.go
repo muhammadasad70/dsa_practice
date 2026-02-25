@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+// import "fmt"
 
 func main() {
 	// arrays()
@@ -64,10 +64,11 @@ func main() {
 	// Key := 0
 	// fmt.Scan(&Key)
 	// insertion(Key)
-	if sorted() {
-		fmt.Println("List is sorted ")
-	} else {
-		fmt.Println("List is not sorted")
-	}
+	// if sorted() {
+	// 	fmt.Println("List is sorted ")
+	// } else {
+	// 	fmt.Println("List is not sorted")
+	// }
+	merging()
 
 }
