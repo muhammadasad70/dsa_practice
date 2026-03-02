@@ -71,6 +71,7 @@ func main() {
 	// }
 	// merging()
 	// union_nonsorted()
-	union_at_sorted()
+	// union_at_sorted()
+	intersection_nonsorted()
 
 }
