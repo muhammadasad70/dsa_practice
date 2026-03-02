@@ -70,6 +70,7 @@ func main() {
 	// 	fmt.Println("List is not sorted")
 	// }
 	// merging()
-	union_nonsorted()
+	// union_nonsorted()
+	union_at_sorted()
 
 }
