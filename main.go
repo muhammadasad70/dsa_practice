@@ -69,6 +69,7 @@ func main() {
 	// } else {
 	// 	fmt.Println("List is not sorted")
 	// }
-	merging()
+	// merging()
+	union_nonsorted()
 
 }
