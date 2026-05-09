@@ -10,14 +10,14 @@ func union_nonsorted() {
 	for i := 0; i < len(A); i++ {
 		C = append(C, A[i])
 	}
-	for i := 0; i <= len(B)-1; i++ {
+	for i := 0; i <len(B); i++ {
 		if search(C, B[i]) == true {
 			continue
 		}
 		C = append(C, B[i])
 
 	}
-	fmt.Println("After union this is the array unio")
+	fmt.Println("After union this is the array union")
 
 	for _, k := range C {
 		fmt.Println(k)
