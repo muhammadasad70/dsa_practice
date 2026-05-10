@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // import "fmt"
 
 func main() {
@@ -76,7 +74,8 @@ func main() {
 	// union_at_sorted()
 	// intersection_nonsorted()
 	// intersection_at_sorted()
-	result := pair_sum_two_p(2)
-	fmt.Println(result)
+	// result := pair_sum_two_p(2)
+	// fmt.Println(result)
+	sorting()
 
 }
