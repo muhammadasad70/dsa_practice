@@ -1,11 +1,6 @@
 package main
 
-type Node struct {
-	data int
-	next *Node
-}
-
-func Create_list() *Node {
+func Search(value int) bool {
 	first := &Node{data: 10}
 	second := &Node{data: 20}
 	third := &Node{data: 30}
@@ -17,5 +12,12 @@ func Create_list() *Node {
 	third.next = forth
 	forth.next = fifth
 	head := first
-	return head
+
+	for head != nil {
+		if head.data == value {
+			return true
+		}
+		head = head.next
+	}
+	return false
 }

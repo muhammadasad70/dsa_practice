@@ -1,11 +1,6 @@
 package main
 
-type Node struct {
-	data int
-	next *Node
-}
-
-func Create_list() *Node {
+func Count_node() int {
 	first := &Node{data: 10}
 	second := &Node{data: 20}
 	third := &Node{data: 30}
@@ -17,5 +12,14 @@ func Create_list() *Node {
 	third.next = forth
 	forth.next = fifth
 	head := first
-	return head
+
+	current := head
+
+	count := 0
+
+	for current != nil {
+		count = count + 1
+		current = current.next
+	}
+	return count
 }
