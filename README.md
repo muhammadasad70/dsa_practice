@@ -1,84 +1,163 @@
 # Data Structures & Algorithms in Go
 
-This repository contains my practice and implementation of Data Structures and Algorithms (DSA) using Golang.
+This repository documents my journey of learning Data Structures, Algorithms, and problem-solving using Golang.
 
-The purpose of this repository is to strengthen problem-solving skills, coding fundamentals, and preparation for backend developer interviews.
-
----
-
-## Topics Covered
-
-### Arrays
-
-- Array Traversal
-- Insertion
-- Deletion
-- Searching
-- Updating Elements
-
-### Strings
-
-- String Manipulation
-- Character Operations
-- String Traversal
-- Basic String Algorithms
-
-### Linked Lists
-
-- Create Linked List
-- Display Linked List
-- Reverse Display
-- Count Nodes
-- Search Node
-- Insert at Beginning
-- Insert at End
-- Insert at Position
-- Sorted Insertion
-- Delete Node
-- Reverse Linked List
-
----
-
-## Language
-
-- Golang
-
----
-
-## Learning Goals
-
-This repository is focused on:
-
-- Problem Solving
-- Data Structures
-- Algorithmic Thinking
-- Time & Space Complexity Analysis
-- Interview Preparation
-
----
-
-## Future Topics
-
-- Stack
-- Queue
-- Tree
-- Binary Search Tree
-- Heap
-- Graph
-- Recursion
-- Sorting Algorithms
-- Searching Algorithms
-- Dynamic Programming
+The goal of this repository is to build strong problem-solving skills, understand core computer science concepts, prepare for technical interviews, and strengthen my backend development foundation.
 
 ---
 
 ## Repository Structure
 
 ```text
-Array/
-LinkedList/
-String/
+dsa_practice/
+│
+├── concepts/
+│   ├── arrays/
+│   ├── strings/
+│   ├── linkedlist/
+│   └── ...
+│
+├── algorithms/
+│   ├── searching/
+│   ├── sorting/
+│   ├── recursion/
+│   ├── graph/
+│   └── ...
+│
+├── leetcode/
+│   ├── arrays/
+│   ├── strings/
+│   ├── linkedlist/
+│   ├── stack/
+│   ├── queue/
+│   ├── tree/
+│   └── ...
+│
+├── notes/
+│
+└── README.md
 ```
+
+---
+
+## Concepts Covered
+
+### Arrays
+
+* Traversal
+* Insertion
+* Deletion
+* Searching
+* Updating Elements
+* Rotation
+* Merging
+* Union & Intersection
+* Sorting
+
+### Strings
+
+* Declaration
+* Accessing Characters
+* Concatenation
+* String Traversal
+* Basic String Operations
+
+### Linked Lists
+
+* Create Linked List
+* Display Linked List
+* Reverse Display
+* Count Nodes
+* Search Node
+* Insert at Beginning
+* Insert at End
+* Insert at Position
+* Sorted Insertion
+* Delete Node
+* Reverse Linked List
+
+---
+
+## Algorithms
+
+This section contains implementations of common algorithms and problem-solving techniques.
+
+Topics planned:
+
+* Searching Algorithms
+* Sorting Algorithms
+* Recursion
+* Backtracking
+* Greedy Algorithms
+* Graph Algorithms
+* Dynamic Programming
+
+---
+
+## LeetCode Practice
+
+This section contains LeetCode solutions categorized by topic.
+
+Topics include:
+
+* Arrays
+* Strings
+* Linked Lists
+* Stack
+* Queue
+* Trees
+* Graphs
+* Binary Search
+* Dynamic Programming
+
+Each solution includes:
+
+* Problem Name
+* Approach
+* Time Complexity
+* Space Complexity
+
+---
+
+## Learning Goals
+
+* Data Structures
+* Algorithms
+* Problem Solving
+* Time & Space Complexity Analysis
+* Backend Interview Preparation
+* Golang Development
+
+---
+
+## Current Progress
+
+### Concepts
+
+* [x] Arrays
+* [x] Strings
+* [x] Linked Lists
+* [ ] Stack
+* [ ] Queue
+* [ ] Trees
+* [ ] Graphs
+
+### LeetCode
+
+* [ ] Arrays
+* [ ] Strings
+* [ ] Linked Lists
+* [ ] Binary Search
+* [ ] Trees
+* [ ] Dynamic Programming
+
+---
+
+## Tech Stack
+
+* Golang
+* Git
+* GitHub
 
 ---
 
@@ -86,4 +165,4 @@ String/
 
 Muhammad Asad
 
-Backend Developer (Golang)
+Aspiring Backend Developer | Golang Enthusiast
